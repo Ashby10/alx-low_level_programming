@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * this is a puts function file
  *main : entry point
+ *
  *return : 0
  */
 int main(void)
