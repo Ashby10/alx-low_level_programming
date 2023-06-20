@@ -1,11 +1,10 @@
 #include "main.h"
 
 /*
- *
- * main - Entry point print
- *
- * Return: 0
- */
+* main - print caracters
+*
+* Return: 0
+*/
 
 int main(void)
 {
