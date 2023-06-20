@@ -1,10 +1,11 @@
 #include "main.h"
 
-/*
-* main - print caracters
-*
-* Return: 0
-*/
+/**
+ * main - print _putchar
+ * this is task 0
+ * Return: 0
+ */
+
 
 int main(void)
 {
