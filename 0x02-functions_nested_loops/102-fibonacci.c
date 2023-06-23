@@ -2,7 +2,6 @@
 
 /**
  * main - display 50 Fibonacci numbers
- *        
  *
  * Return: 0
  */
