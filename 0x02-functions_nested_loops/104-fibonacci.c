@@ -2,7 +2,7 @@
 
 /**
  * main - fibonacci
- * Purpose - code 
+ * Purpose - code
  *
  * Return:  0
  */
