@@ -2,7 +2,7 @@
 /**
  * more_numbers - prints 10 times 0 to 14
  *
- * Retrun: void.
+ * Return: void.
  */
 
 void more_numbers(void)
