@@ -1,5 +1,6 @@
 #include "main.h"
-/** mil - multiply a and b
+/** 
+ * mul - multiply a and b
  * @a: first int
  * @b: second int
  *
