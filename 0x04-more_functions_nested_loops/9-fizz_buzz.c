@@ -1,8 +1,8 @@
 #include <stdio>
 /**
- * main- draws a square with #
+ * main- prints numbers from 0 to 100 ith exeptions
  *
- * Return: int
+ * Return: 0
  */
 int main(void)
 {
@@ -17,9 +17,9 @@ else
 if (((i % 3) == 0) && ((i % 5 != 0)))
 		printf("Fizz");
 if (((i % 3) != 0) && ((i % 5 == 0)))
-		printf("buzz");
+		printf("Buzz");
 if (((i % 3) == 0) && ((i % 5 == 0)))
-		printf("Fizzbuzz");
+		printf("FizzBuzz");
 	}
 }
 printf("\n");
