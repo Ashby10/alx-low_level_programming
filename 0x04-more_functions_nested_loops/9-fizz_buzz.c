@@ -1,30 +1,34 @@
-#include <stdio>
+#include <stdio.h>
+
 /**
- * main- prints numbers from 0 to 100 ith exeptions
- *
- * Return: 0
+ * main - prints numbers from 1 to 100, followed by a new line ith eeptions
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
+	int i;
 
-for(i = 1; i <= 100; i++)
-{
-if (i == 1)
-	printf("%d, i");
-else
-{
-if (((i % 3) != 0) && ((i % 5 != 0)))
-	printf(" %d", i);
-}
-if (((i % 3) == 0) && ((i % 5 != 0)))
-		printf(" Fizz");
-if (((i % 3) != 0) && ((i % 5 == 0)))
-		printf(" Buzz");
-if (((i % 3) == 0) && ((i % 5 == 0)))
-		printf(" FizzBuzz");
+	for (i = 1; i <= 100; i++)
+	{
+		if (i % 3 == 0 && i % 5 != 0)
+		{
+			printf(" Fizz");
+		} else if (i % 5 == 0 && i % 3 != 0)
+		{
+			printf(" Buzz");
+		} else if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf(" FizzBuzz");
+		} else if (i == 1)
+		{
+			printf("%d", i);
+		} else
+		{
+			printf(" %d", i);
+		}
+	}
+	printf("\n");
 
+	return (0);
 }
-printf("\n");
-return (0);
-}
+
