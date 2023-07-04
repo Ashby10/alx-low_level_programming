@@ -21,5 +21,5 @@ while (src [j] != '\0')
 dest[i+j] = src [j];
 j++;
 }
-return dest;
+return (dest);
 }
