@@ -4,7 +4,7 @@
  * _strncpy - a function that copy a n char
  * @dest: pointer of a char
  * @src: pointer of a char
- * @n: number of char to concatenate
+ * @n: number of char to copy
  *
  * Return: char pointer
  */
@@ -17,8 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[j] = src[j];
 		j++;
-	}
-	
+	}	
 	while (j < n)
 	{
 		dest[j] = '\0';
