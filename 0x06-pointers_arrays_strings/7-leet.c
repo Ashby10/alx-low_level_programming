@@ -16,7 +16,6 @@ char *leet(char *s)
 	j = 0;
 	while (s[i] != '\0')
 	{
-	//	while (a[j] != '\n')
 	for (j = 0; j < 10; j++)
 		{
 			if (s[i] == a[j])
