@@ -5,20 +5,23 @@
  *
  * Return: string pointer
  */
-char *string_toupper(char *s)
+char *leet(char *s)
 {
 	int i;
-	char a[10] = "aAeEoOtTlL";
-	char b[10] = "4433007711";
+	int j;
+	char a[] = {'a','A','e','E','o','O','t','T','l','L'};
+	char b[] = {'4','4','3','3','0','0','7','7','1','1'};
+
 	i = 0;
-	while (a[i] != '\0')
+	j = 0;
+	while (s[i] != '\0')
 	{
-		while (i < j)
+	//	while (a[j] != '\n')
+	for (j = 0; j < 10; j++)
 		{
-			if (s[i] == a[i])
+			if (s[i] == a[j])
 			{
-				s[i] = a[j];
-				j++;
+				s[i] = b[j];
 			}
 		}
 		i++;
