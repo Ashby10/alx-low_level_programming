@@ -34,8 +34,8 @@ char *cap_string(char *a)
 		if (a[i] >= 'a' && a[i] <= 'z')
 		{
 			a[i] = a[i] - 32;
-			i--;
 		}
+		i--;
 		}
 	}
 	return (a);
