@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * _strspn - function
+ * _strpbrk - function
  * @s: string pointer
  * @accept: string pointer
- * Return: unsigned integer
+ * Return: string
  */
 char *_strpbrk(char *s, char *accept)
 {
-		int k;
+int k;
 
-				while (*s)
+	while (*s)
 	{
 	for (k = 0; accept[k]; k++)
-{
+	{
 	if (*s == accept[k])
 		return (s);
 	}
-s++;
-}
+	s++;
+	}
 return ('\0');
 }
