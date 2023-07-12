@@ -15,9 +15,9 @@ int i;
 
 if (size == 0)
 	return (NULL);
-ptr = (char *) malloc (size);
+ptr = malloc(size);
 if (ptr == NULL)
-	return (ptr);
+	return (NULL);
 for (i = 0; i < size; i++)
 	ptr[i] = c;
 return (ptr);
