@@ -24,7 +24,7 @@ j = 0;
 while (s1[i] != '\0')
 i++;
 while (s2[j] != '\0')
-j++;i
+j++;
 str = malloc(i + j + 1);
 if (str == NULL)
 return (NULL);
