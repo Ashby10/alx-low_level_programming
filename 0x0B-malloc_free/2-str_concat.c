@@ -6,7 +6,7 @@
  * @s2: string
  *
  * Description: this is a longer desc
- * Retrun: pointer or NULL
+ * Return: pointer or NULL
  */
 char *str_concat(char *s1, char *s2)
 {
