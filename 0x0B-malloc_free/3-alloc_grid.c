@@ -23,7 +23,7 @@ for (i = 0; i < height; i++)
 		str[i] = malloc(sizeof(**str) * width);
 		if (str[i] == NULL)
 		{
-			while(i--)
+			while (i--)
 				free(str[i]);
 			free(str);
 			return (NULL);
