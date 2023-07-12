@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - function that concatenate 2 strings
- * @s1: string 1
- * @s2: string 2
+ * str_concat - function that concatenate strings
+ * @s1: string
+ * @s2: string
  *
+ * Description: this is a longer desc
  * Retrun: pointer or NULL
  */
 char *str_concat(char *s1, char *s2)
@@ -23,7 +24,7 @@ j = 0;
 while (s1[i] != '\0')
 i++;
 while (s2[j] != '\0')
-j++;
+j++;i
 str = malloc(i + j + 1);
 if (str == NULL)
 return (NULL);
