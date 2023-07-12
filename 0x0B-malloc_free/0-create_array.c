@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * create_array - a function that creates a pointer nd allocate memory
  * @size: size to allocate
