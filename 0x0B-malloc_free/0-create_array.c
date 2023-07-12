@@ -4,7 +4,6 @@
  * create_array - a function that creates a pointer nd allocate memory
  * @size: size to allocate
  * @c: character of intialization
- * Description: allocate memory for an array
  * Return: pointer or NULL
  */
 char *create_array(unsigned int size, char c)
@@ -13,7 +12,7 @@ char *ptr;
 int unsigned i;
 
 if (size == 0)
-return (NULL);
+	return (NULL);
 ptr = malloc(sizeof(char) * size);
 if (ptr == NULL)
 return (NULL);
