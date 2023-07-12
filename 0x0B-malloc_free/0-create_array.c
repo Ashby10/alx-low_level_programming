@@ -15,7 +15,7 @@ int unsigned i;
 if (size == 0)
 return (NULL);
 
-ptr = malloc (sizeof(char) * size);
+ptr = malloc(sizeof(char) * size);
 if (ptr == NULL)
 return (NULL);
 
