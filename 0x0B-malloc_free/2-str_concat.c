@@ -4,6 +4,7 @@
  * str_concat - function that concatenate 2 strings
  * @s1: string 1
  * @s2: string 2
+ *
  * Retrun: pointer or NULL
  */
 char *str_concat(char *s1, char *s2)
@@ -14,22 +15,22 @@ int k;
 char *str;
 
 if (s1 == NULL)
-	s1 = "";
+s1 = "";
 if (s2 == NULL)
-	s2 = "";
+s2 = "";
 i = 0;
 j = 0;
 while (s1[i] != '\0')
-	i++;
+i++;
 while (s2[j] != '\0')
-	j++;
-str = malloc (i + j + 1);
+j++;
+str = malloc(i + j + 1);
 if (str == NULL)
-	return (NULL);
+return (NULL);
 for (k = 0; k < i; k++)
-	str[k] = s1[k];
+str[k] = s1[k];
 for (k = 0; k < j; k++)
-	str[i + k] = s2[k];
-str[i+j] = '\0';
+str[i + k] = s2[k];
+str[i + j] = '\0';
 return (str);
 }
