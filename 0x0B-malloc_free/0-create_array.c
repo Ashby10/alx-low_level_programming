@@ -14,11 +14,11 @@ char *ptr;
 int unsigned i;
 
 if (size == 0)
-	return (NULL);
-ptr = malloc(size);
+return (NULL);
+ptr = malloc(sizeof(char) * size);
 if (ptr == NULL)
-	return (NULL);
+return (NULL);
 for (i = 0; i < size; i++)
-	ptr[i] = c;
+ptr[i] = c;
 return (ptr);
 }
