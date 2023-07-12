@@ -14,22 +14,22 @@ int i;
 int j;
 
 if (width <= 0 || height <= 0)
-	return (NULL);
+return (NULL);
 str = malloc(sizeof(*str) * height);
 if (str == NULL)
-	return (NULL);
+return (NULL);
 for (i = 0; i < height; i++)
-	{
-		str[i] = malloc(sizeof(**str) * width);
-		if (str[i] == NULL)
-		{
-			while (i--)
-				free(str[i]);
-			free(str);
-			return (NULL);
-		}
-	for (j = 0; j < width; j++)
-		str[i][j] = 0;
-		}
+{
+str[i] = malloc(sizeof(**str) * width);
+if (str[i] == NULL)
+{
+while (i--)
+free(str[i]);
+free(str);
+return (NULL);
+}
+for (j = 0; j < width; j++)
+str[i][j] = 0;
+}
 return (str);
 }
