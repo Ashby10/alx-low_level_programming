@@ -26,12 +26,8 @@ if (!str)
 	return (NULL);
 for (k = 0; s1[k] != '\0'; k++)
 {
-//	if (s1[k] == '\0')
-//	str[k] = ' ';
-//	else
 	str[k] = s1[k];
 }
-//str[i + k - 3] = ' ';
 	for (k = 0; k < n; k++)
 {
 	str[i + k] = s2[k];
