@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * array_range - function that arrange numbers
- * @min: min number 
+ * @min: min number
  * @max: max number
  *
  * Return: int pointer
