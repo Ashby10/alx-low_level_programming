@@ -15,6 +15,10 @@ unsigned int i, j, k;
 
 i = 0;
 j = 0;
+if (s1 == NULL)
+	s1 = "";
+if (s2 == NULL)
+	s2 = "";
 while (s1[i] != '\0')
 	i++;
 while (s2[j] != '\0')
@@ -32,6 +36,6 @@ for (k = 0; k < i; k++)
 {
 	str[i + k] = s2[k];
 }
-//str[i + n] = '\0';
+str[i + n] = '\0';
 return (str);
 }
