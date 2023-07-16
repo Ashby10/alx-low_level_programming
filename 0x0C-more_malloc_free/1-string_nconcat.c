@@ -24,7 +24,7 @@ if (n > j)
 str = malloc(sizeof(char) * (i + n + 1));
 if (!str)
 	return (NULL);
-for (k = 0; s1[k] != '\0'; k++)
+for (k = 0; k < i; k++)
 {
 	str[k] = s1[k];
 }
@@ -32,6 +32,6 @@ for (k = 0; s1[k] != '\0'; k++)
 {
 	str[i + k] = s2[k];
 }
-str[i + n + 1] = '\0';
+str[i + n] = '\0';
 return (str);
 }
