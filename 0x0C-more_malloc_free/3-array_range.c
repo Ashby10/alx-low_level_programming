@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+ * array_range - function that arrange numbers
+ * @min: min number 
+ * @max: max number
  *
- *
- *
- *
+ * Return: int pointer
  */
 int *array_range(int min, int max)
 {
