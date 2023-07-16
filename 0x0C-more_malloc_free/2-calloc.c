@@ -14,7 +14,7 @@ unsigned int i;
 if (size == 0 || nmemb == 0)
 	return (NULL);
 else
-ptr = malloc (nmemb * size);
+ptr = malloc(nmemb * size);
 if (ptr == NULL)
 return (NULL);
 else
