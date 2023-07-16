@@ -24,19 +24,17 @@ if (n > j)
 str = malloc(sizeof(char) * (i + n + 1));
 if (!str)
 	return (NULL);
-for (k = 0; k <= i; k++)
-{
-	if (s1[k] == '\0')
-	str[k] = ' ';
-	else
-	str[k] = s1[k];
-}
-	for (k = 0; k < n; k++)
+for (k = 0; s1[k] != '\0'; k++)
 {
 //	if (s1[k] == '\0')
-//		str[k] = ' ';
+//	str[k] = ' ';
 //	else
-	str[i + k + 1] = s2[k];
+	str[k] = s1[k];
+}
+//str[i + k - 3] = ' ';
+	for (k = 0; k < n; k++)
+{
+	str[i + k] = s2[k];
 }
 str[i + n + 1] = '\0';
 return (str);
