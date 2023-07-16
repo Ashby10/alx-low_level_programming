@@ -32,6 +32,6 @@ for (k = 0; k < i; k++)
 {
 	str[i + k] = s2[k];
 }
-str[i + n] = '\0';
+//str[i + n] = '\0';
 return (str);
 }
