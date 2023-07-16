@@ -15,10 +15,10 @@ if (size == 0 || nmemb == 0)
 	return (NULL);
 else
 ptr = malloc (nmemb * size);
-if (!ptr)
+if (ptr == NULL)
 return (NULL);
 else
 	for (i = 0; i < nmemb; i++)
-		ptr[i] = 0;
+		ptr[i] = '0';
 return (ptr);
 }
