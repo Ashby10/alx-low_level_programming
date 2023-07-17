@@ -20,7 +20,7 @@ for (i = 0; i < ac; i++)
 	for (j = 0; av[i][j] != '\0'; j++)
 	len++;
 len = len + ac;
-ptr = malloc(len * sizeof(char) + 1);
+ptr = malloc(sizeof(char) * len + 1);
 if (ptr == NULL)
 	return (NULL);
 for (i = 0; i < ac; i++)
