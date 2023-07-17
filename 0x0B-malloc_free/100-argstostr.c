@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+ * argstostr - function argc argv
+ * @ac: int argc
+ * @av: pointer argv
  *
- *
- *
- *
- *
- *
- *
+ * Return: pointer string
  */
 char *argstostr(int ac, char **av)
 {
