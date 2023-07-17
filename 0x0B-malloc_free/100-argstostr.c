@@ -32,7 +32,7 @@ for (i = 0; i < ac; i++)
 		ptr[k] = av[i][j];
 		k++;
 	}
-//	if (ptr[k] == '\0')
+	if (ptr[k] == '\0')
 	ptr[k++] = '\n';
 	}
 return (ptr);
