@@ -1,17 +1,14 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 /**
+ * sum_them_all - function variadic
+ * @n: number of par
+ * @...: variadic
  *
- *
- *
- *
- *
- *
+ * Return: sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	if (n == 0)
-		return (0);
 va_list ap;
 int i;
 
