@@ -10,9 +10,10 @@
 int sum_them_all(const unsigned int n, ...)
 {
 va_list ap;
-int i;
+unsigned int i;
+unsigned int sum;
 
-int sum = 0;
+sum = 0;
 va_start(ap, n);
 for (i = 0; i < n; i++
 		sum = sum + va_arg(ap, int);
