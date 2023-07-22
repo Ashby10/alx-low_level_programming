@@ -2,11 +2,12 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
+ * print_numbers - function that prins numbers
+ * @separator: string
+ * @n: count
+ * @...: var
  *
- *
- *
- *
- *
+ * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
