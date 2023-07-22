@@ -8,9 +8,8 @@
 void print_all(const char * const format, ...)
 {
 int i = 0;
-char *str, *s;
+char *str, *s = "";
 
-*s = "";
 va_list p;
 va_start(p, format);
 	if (format)
