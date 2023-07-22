@@ -27,4 +27,4 @@ str = va_arg(ss, char *);
 				printf("%s", separator);
 		}
 		printf("\n");
-va_end(str);
+va_end(ss);
