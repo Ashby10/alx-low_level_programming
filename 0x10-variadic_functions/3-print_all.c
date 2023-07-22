@@ -1,16 +1,14 @@
 #include "variadic_functions.h"
-	#include <stdarg.h>
-	#include <stdio.h>
-
-
-	/**
-	 * print_all - function print
-	 * @format: arg formats
-	 */
-	void print_all(const char * const format, ...)
-	{
-		int i = 0;
-		char *str, *s;
+#include <stdarg.h>
+#include <stdio.h>
+/**
+ * print_all - function print
+ * @format: arg formats
+ */
+void print_all(const char * const format, ...)
+{
+int i = 0;
+char *str, *s;
 
 *s = "";
 va_list p;
