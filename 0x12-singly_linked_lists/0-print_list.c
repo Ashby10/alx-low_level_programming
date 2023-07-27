@@ -12,11 +12,11 @@ list_t *tr;
 size_t i;
 
 i = 0;
-tr = head;
+tr = h;
 while (tr != NULL)
 {
 	if (tr->str == NULL)
-		print ("[0] (nil)\n");
+		printf("[0] (nil)\n");
 	else
 		printf("[%u] %s\n", tr->len, tr->str);
 tr = tr->next;
