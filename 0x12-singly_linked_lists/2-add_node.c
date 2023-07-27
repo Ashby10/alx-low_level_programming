@@ -19,6 +19,6 @@ while (str[l])
 new->str = strdup(str);
 new->len = l;
 new->next = *head;
-*head-next = new;
+(*head) = new;
 return (*head);
 }
