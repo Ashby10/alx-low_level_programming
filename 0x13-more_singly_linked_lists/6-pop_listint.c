@@ -1,5 +1,5 @@
 #include"lists.h"
-#include <stdlib.h>
+
 /**
  * pop_listint - delete the head element
  * @head: pointer to head
@@ -8,13 +8,13 @@
  */
 int pop_listint(listint_t **head)
 {
-listint_t t;
+listint_t *t;
 int d;
 if (!head || !*head)
-	return (NULL);
-d = *head->n;
-t = *head->next;
+	return (0);
+d = (*head)->n;
+t = (*head)->next;
 free(*head);
-*head = t;
+(*head) = t;
 return (d);
 }
