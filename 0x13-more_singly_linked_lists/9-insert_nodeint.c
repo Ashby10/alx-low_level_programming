@@ -25,7 +25,6 @@ new->next = NULL;
 		*head = new;
 		return (new);
 	}
-
 	while (t || i < idx)
 	{
 		if (i == idx - 1)
@@ -37,6 +36,5 @@ new->next = NULL;
 	t = t->next;
 	i++;
 	}
-
 return (NULL);
 }
