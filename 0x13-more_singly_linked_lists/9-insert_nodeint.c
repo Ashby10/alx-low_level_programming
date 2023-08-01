@@ -16,25 +16,25 @@ t = *head;
 i = 0;
 new = malloc(sizeof(listint_t));
 if (!new || !head)
-	return (NULL);
+return (NULL);
 new->n = n;
 new->next = NULL;
-	if (idx == 0)
-	{
-		new->next = *head;
-		*head = new;
-		return (new);
-	}
-	while (t || i < idx)
-	{
-		if (i == idx - 1)
-		{
-		new->next = t->next;
-		t->next = new;
-		return (new);
-		}
-	t = t->next;
-	i++;
-	}
+if (idx == 0)
+{
+new->next = *head;
+*head = new;
+return (new);
+}
+while (t || i < idx)
+{
+if (i == idx - 1)
+{
+new->next = t->next;
+t->next = new;
+return (new);
+}
+t = t->next;
+i++;
+}
 return (NULL);
 }
