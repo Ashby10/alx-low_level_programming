@@ -1,19 +1,21 @@
 #include "lists.h"
-/*
- * sum_listint - calculate the sum the values of a list
- * @head: head
+
+/**
+ * sum_listint -  sum of n
+ * @head: the head
  *
- * Return: a sum of values
+ * Return: sum
  */
 int sum_listint(listint_t *head)
 {
-int sum = 0;
-listint_t *t = head;
+ int i = 0;
+ listint_t *temp = head;
 
-while (t)
-{
-	sum += t->n;
-	t = t->next;
-}
-return (sum);
+ while (temp)
+ {
+ i += temp->n;
+ temp = temp->next;
+ }
+
+ return (i);
 }
