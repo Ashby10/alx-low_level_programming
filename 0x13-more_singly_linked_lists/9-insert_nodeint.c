@@ -15,9 +15,10 @@ listint_t *new, *t;
 t = *head;
 i = 0;
 new = malloc(sizeof(listint_t));
-if (!new || !*head || !head)
+if (!new || !head)
 	return (NULL);
 new->n = n;
+new->next = NULL;
 	if (idx == 0)
 	{
 		new->next = *head;
