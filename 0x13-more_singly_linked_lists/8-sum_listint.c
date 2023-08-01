@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 /*
  * sum_listint - calculate the sum the values of a list
  * @head: head
@@ -14,7 +13,7 @@ listint_t *t = head;
 while (t)
 {
 	sum += t->n;
-	t = t->Next;
+	t = t->next;
 }
 return (sum);
 }
