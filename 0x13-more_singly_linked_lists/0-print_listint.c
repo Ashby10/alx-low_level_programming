@@ -1,5 +1,5 @@
-#include "lists_h"
-#include <stdio.h>
+#include "lists.h"
+
 /*
  * print_listint - function that prints a list
  * @h: head
